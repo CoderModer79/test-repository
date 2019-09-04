@@ -22,7 +22,7 @@ def create_store():
   stores.append(new_store)
   return jsonify(new_store)
   #pass
-
+  #pass
 #get /store/<name> data: {name :}
 @app.route('/store/<string:name>')
 def get_store(name):
