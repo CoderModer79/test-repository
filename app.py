@@ -6,7 +6,7 @@ stores = [{
     'name': 'My Store',
     'items': [{'name':'my item', 'price': 15.99 }]
 }]
-
+#pass
 @app.route('/')
 def home():
   return render_template('index.html')
